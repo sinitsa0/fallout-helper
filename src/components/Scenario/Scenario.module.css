@@ -1,0 +1,15 @@
+.link {
+	text-decoration: none;
+}
+
+.scenario {
+    text-align: center;
+    font-size: 2.8vw;
+    margin-bottom: 2vw;
+    color: rgba(255, 255, 255, 0.87);
+    /* border-bottom:2px solid grey; */
+}
+
+.scenario:hover{
+    background: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,48 @@
+.cards {
+    display: flex;
+    
+    .card-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        
+        /* border: 1px solid #ffffff; */
+    }
+    .line {
+        border-right: 3px solid var(--primary-color);
+        min-height: 98vh;
+    }
+
+    .shirtList {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0.5vw;
+
+        .icon {
+            display:flex;
+        }
+
+        .textReset {
+            align-self: center;
+            font-size: 1.4vw;
+        }
+
+        .shirtsReset {
+            display:flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    
+}
+
+.btn-norm {
+                font-size: 1.4vw;
+                padding: 0.3vw 1vw;
+                background-color: var(--primary-color);
+                margin-top: 0.65vw;
+                border-color: #747474;
+            }
+            .btn-norm:hover {
+                background-color: var(--low-color);
+            }

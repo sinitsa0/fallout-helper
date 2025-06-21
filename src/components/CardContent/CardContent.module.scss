@@ -1,0 +1,23 @@
+.image {
+    /* max-width: 200px; */
+    width: 13vw;
+    height: 20.4vw;
+    margin: 0.5vw;
+    cursor: pointer;
+    border-radius: 10%;
+
+    &.big {
+        width: 27vw;
+        height: 42.3vw;
+    }
+
+    &.small {
+        width: 7vw;
+        height: 11vw;
+    }
+
+    &.mini {
+        width: 3vw;
+        height: 4.65vw;
+    }
+}

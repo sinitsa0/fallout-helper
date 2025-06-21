@@ -1,0 +1,38 @@
+.scenario-type {
+    width: 70vw;
+    max-width: 100%;
+    display:flex;
+    justify-self: center;
+
+    .scenario-list {
+        display: list-item;
+        padding-top: 2.5vh;
+        flex: 1;
+        width: 70%;
+        list-style-type: none;
+
+    }
+
+}
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+    .scenario-btn {
+        font-size: 3vh;
+    }
+}
+
+.link {
+	text-decoration: none;
+}
+
+.input {
+    font-size: 3vh;
+    width: 20vw;
+    background-color: transparent;
+    border: 2px solid #fff; //var(--low-color);
+    padding: 1vh;
+    justify-self: center;
+}

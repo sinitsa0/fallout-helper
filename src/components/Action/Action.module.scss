@@ -1,0 +1,14 @@
+.action {
+    font-size: 0.95vw;
+    padding-left: 0.5vw;
+    margin-bottom: 0.5vw;
+    cursor: pointer;
+}
+
+.action:hover {
+    background-color: var(--low-color);
+}
+
+.action-active {
+    background-color: var(--primary-color);
+}
